@@ -8,7 +8,18 @@
     transition: 0.2s;
 }
 body {
-    width: 100vh;
+    width: 204vh;
     height: 100vh;
     background-color: lightslategray;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr 3fr ;
+    border: 2px limegreen solid;
+    grid-template-areas: 
+        "header header header header"
+        "sidebar main main main"
+    ;
+
 }
