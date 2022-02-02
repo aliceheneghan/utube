@@ -22,6 +22,7 @@ main {
         "verMenu footer";
 }
 header {
+    height: 6vh;
     grid-area: header;
     background-color: mediumvioletred;
 }

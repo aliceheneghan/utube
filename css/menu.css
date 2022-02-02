@@ -1,0 +1,6 @@
+header nav ul li {
+    display: inline-block;
+    }
+    header nav {
+        border: 2px yellowgreen solid;
+    }
