@@ -12,20 +12,31 @@ body {
     height: 100vh;
     background-color: lightslategray;
 }
-.container {
+main {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 2fr 1fr 3fr ;
-    border: 2px limegreen solid;
+    grid-template-rows: 1fr 3fr 1fr ;
     grid-template-areas: 
-        "header header header header"
-        "sidebar main main main";
+        "header header"
+        "verMenu contentContainer"
+        "verMenu footer";
 }
-.horMenu {
+header {
     grid-area: header;
     background-color: mediumvioletred;
 }
 .verMenu {
-    grid-area: sidebar;
+    grid-area: verMenu;
     background-color: mediumaquamarine;
 }
+.contentContainer {
+    grid-area: contentContainer;
+    background-color: mediumorchid;
+}
+.banner {
+    grid-area: contentContainer;
+    background-color: midnightblue;
+    color: white;
+}
+
+
