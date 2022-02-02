@@ -19,7 +19,13 @@ body {
     border: 2px limegreen solid;
     grid-template-areas: 
         "header header header header"
-        "sidebar main main main"
-    ;
-
+        "sidebar main main main";
+}
+.horMenu {
+    grid-area: header;
+    background-color: mediumvioletred;
+}
+.verMenu {
+    grid-area: sidebar;
+    background-color: mediumaquamarine;
 }
