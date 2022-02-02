@@ -11,14 +11,11 @@
 - [About Project](#about-project)
   - _Description_
   - _Developed With_
-- How to use this Project
-  - _Description_
-  - _Developed With_
-- Contact
+- [Contact](#contact)
   - _Mail_
   - _GitHub_
   - _LinkedIn_
-- Used Tools
+- [Used Tools](#used-tools)
   - _Fonts_
   - _Design_
   - _Icons_
@@ -27,6 +24,8 @@
 ---
 
 ### About Project
+
+##### Description
 
 _YouTube - clone_
 Create a webpage using Html/Css to recreate a YouTube channel homepage.
