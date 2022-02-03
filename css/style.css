@@ -1,5 +1,5 @@
 @import url(./menu.css);
-@import url(./menu.css)
+@import url(./logos.css);
 
 * {
     margin: 0;
@@ -9,34 +9,34 @@
     transition: 0.2s;
 }
 body {
-    width: 204vh;
+    width: 100vw;
     height: 100vh;
     background-color: lightslategray;
-}
-main {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 3fr 1fr ;
-    grid-template-areas: 
-        "header header"
-        "verMenu contentContainer"
-        "verMenu footer";
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: 0.5fr 9.5fr;
+    grid-template-areas:
+        "topbar topbar"
+        "verMenu mainContent";
 }
 header {
     height: 6vh;
-    grid-area: header;
-    background-color: mediumvioletred;
+    width: 100%;
+    grid-area: topbar;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px blue solid;
 }
 .verMenu {
     grid-area: verMenu;
     background-color: mediumaquamarine;
 }
-.contentContainer {
-    grid-area: contentContainer;
+.mainContent {
+    grid-area: mainContent;
     background-color: mediumorchid;
 }
 .banner {
-    grid-area: contentContainer;
     background-color: midnightblue;
     color: white;
 }

@@ -1,6 +1,22 @@
-header nav ul li {
-    display: inline-block;
-    }
-    header nav {
-        border: 2px yellowgreen solid;
+.menuLeft {
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    border: 2px orange solid;
+}
+.menuLeft i {
+    padding: 7%;
+}
+.search {
+    align-self: center;
+    width: 16vw;
+}
+
+.menuRight {
+    width: 10vw;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px yellowgreen solid;
     }
