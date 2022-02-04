@@ -15,7 +15,6 @@
 
 .menuRight {
     width: 10vw;
-    align-self: flex-end;
     display: flex;
     justify-content: space-evenly;
     border: 2px yellowgreen solid;
