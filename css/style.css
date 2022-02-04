@@ -11,7 +11,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: lightslategray;
+    background-color: ;
     display: grid;
     grid-template-columns: 0.28fr 2fr;
     grid-template-rows: 0.5fr 9.5fr;
@@ -26,18 +26,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 3px blue solid;
-}
+    border:   ;
+
 .leftMenu {
     grid-area: sidebar;
-    background-color: mediumaquamarine;
+    background-color: ;
 }
 .mainContent {
     grid-area: mainContent;
-    background-color: mediumorchid;
 }
 .banner {
-    background-color: midnightblue;
+    background-color: ;
     color: white;
 }
 
