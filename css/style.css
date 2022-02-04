@@ -13,11 +13,11 @@ body {
     height: 100vh;
     background-color: lightslategray;
     display: grid;
-    grid-template-columns: 0.5fr 2fr;
+    grid-template-columns: 0.28fr 2fr;
     grid-template-rows: 0.5fr 9.5fr;
     grid-template-areas:
         "topbar topbar"
-        "verMenu mainContent";
+        "sidebar mainContent";
 }
 header {
     height: 6vh;
@@ -28,8 +28,8 @@ header {
     align-items: center;
     border: 3px blue solid;
 }
-.verMenu {
-    grid-area: verMenu;
+.leftMenu {
+    grid-area: sidebar;
     background-color: mediumaquamarine;
 }
 .mainContent {
