@@ -40,14 +40,15 @@ button i {
     align-items: center;
     border: ;
 }
+.menuLeft {
+    width: 13vw;
+    display: flex;
+    border: 2px red ;
+}
 .menuLeft ul {
     margin: 0;
     padding: 0.6vw;
     list-style: none;
-}
-.menuLeft {
-    display: flex;
-    border: 2px red ;
 }
 ul i {
     padding: 8%;
