@@ -26,7 +26,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px green solid;
+    border: 2px green ;
 
 .leftMenu {
     grid-area: sidebar;
