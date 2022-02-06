@@ -5,12 +5,34 @@
     align-self: flex-start;
     border: ;
 } 
-.searchLeft i, ul i, h3 {
-    padding: 8%;
+.burgerMenu {
+    width: 4vw;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px blue ;
 }
 .search {
     align-self: center;
-    width: 16vw;
+    width: 34vw;
+    border: 1px blue ;
+}
+input[type=search] {
+    width: 28vw;
+    height: 4vh;
+}
+input[type=search] + button {
+    padding: 0.5vw;
+    margin-left: -0.25vw;
+    width: 3vw;
+    height: 4.1vh;
+}
+button i {
+    margin-left: -1vw;
+}
+.search i {
+    padding-left: 1vw;
 }
 .searchRight {
     width: 10vw; 
@@ -21,10 +43,19 @@
 }
 .menuLeft ul {
     margin: 0;
-    padding: 0;
+    padding: 0.6vw;
     list-style: none;
 }
 .menuLeft {
     display: flex;
     border: 2px red solid;
+}
+ul i {
+    padding: 8%;
+    margin-right: 0.7vw;
+}
+ul p {
+    font-weight: 700;
+    color: rgb(97, 93, 93);
+    padding: 0.7vw;
 }
