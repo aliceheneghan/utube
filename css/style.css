@@ -1,5 +1,6 @@
 @import url(./menu.css);
 @import url(./logos.css);
+@import url(./var.css)
 
 * {
     margin: 0;

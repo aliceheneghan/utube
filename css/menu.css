@@ -4,7 +4,8 @@
     align-items: center;
     align-self: flex-start;
     border: ;
-} .searchLeft i, ul i, h3 {
+} 
+.searchLeft i, ul i, h3 {
     padding: 8%;
 }
 .search {
@@ -12,12 +13,18 @@
     width: 16vw;
 }
 .searchRight {
-    width: 10vw;
+    width: 10vw; 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border: ;
-    }
-    .leftMenu {
-        
-    }
+}
+.menuLeft ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menuLeft {
+    display: flex;
+    border: 2px red solid;
+}
