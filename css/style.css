@@ -1,6 +1,6 @@
-@import url(./menu.css);
-@import url(./logos.css);
-@import url(./var.css);
+@import url("./menu.css");
+@import url("./logos.css");
+@import url("./var.css");
 
 * {
     margin: 0;
@@ -9,11 +9,14 @@
     scroll-behavior: smooth;
     transition: 0.2s;
 }
+:root {
+    font-size: 16px;
+}
 body {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 0.28fr 2fr;
+    grid-template-columns: 0.3fr 2fr;
     grid-template-rows: 0.5fr 9.5fr;
     grid-template-areas:
         "topbar topbar"
@@ -28,7 +31,7 @@ header {
     align-items: center;
     border: 2px green ;
 
-.leftMenu {
+.menuLeft {
     grid-area: sidebar;
     background-color: ;
 }

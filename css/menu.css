@@ -41,17 +41,19 @@ button i {
     border: ;
 }
 .menuLeft {
-    width: 13vw;
     display: flex;
     border: 2px red ;
 }
 .menuLeft ul {
     margin: 0;
-    padding: 0.6vw;
+    /*padding: 0.6vw;*/
     list-style: none;
 }
+ul {
+    line-height: 1vh;
+}
 ul i {
-    padding: 8%;
+    /* padding: 8%; */
     margin-right: 0.7vw;
 }
 ul p {
