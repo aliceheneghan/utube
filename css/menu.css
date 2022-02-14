@@ -1,8 +1,6 @@
-i {
-    
-}
+
 .searchLeft {
-    width: 12%;
+    width: 13%;
     height: 100%;
     padding-left: 1.35%;
     display: flex;
@@ -29,14 +27,15 @@ i {
     width: 92%;
 }
 input[type=search] {
-    width: 92%;
+    width: 90%;
     height: 4vh;
     padding: 1.7%;
 }
 input[type=search] + button {
-    width: 8%;
+    width: 10%;
     height: 4vh;
     margin-left: -0.7%;
+    background-color: rgb(250, 249, 249);
 }
 input[type=search], input[type=search] + button {
     border-radius: 0%;
@@ -51,7 +50,7 @@ input[type=search], input[type=search] + button {
     justify-content: center;
 }
 .searchRight {
-    width: 14vw;
+    width: 13%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -61,7 +60,6 @@ input[type=search], input[type=search] + button {
     height: 2.3vh;
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-evenly; */
     align-items: center;
     /* border: 1px red solid;  */
 }
