@@ -1,5 +1,5 @@
 @import url("./menu.css");
-@import url("./logos.css");
+@import url("./images.css");
 @import url("./var.css");
 @import url("./main-content.css");
 
@@ -16,13 +16,15 @@
 body {
     width: 100%;
     display: grid;
-    grid-template-columns: 0.3fr 2fr;
-    grid-template-rows: 0.5fr 9.5fr;
+    grid-template-columns: 13% 87%;
+    grid-template-rows: 6vh 27% 14% 59%;
     grid-template-areas:
         "header header"
-        "sideMenu mainContent";
+        "sideMenu banner"
+        "sideMenu bannerMenu"
+        "sideMenu gallery";
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 13.8px;
     font-weight: 600;
 }
 header {
@@ -32,16 +34,26 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px red solid; */
+    border: 1px green solid;
 }
 .menuLeft {
     grid-area: sideMenu;
     display: flex;
     flex-direction: column;
 }
-.mainContent {
-    grid-area: mainContent;
+.bannerImage {
+    grid-area: banner;
 }
-
+.bannerMenu {
+    grid-area: bannerMenu;
+    display: flex;
+    justify-content: center;
+    border: 1px green solid;
+}
+.gallery {
+    grid-area: gallery;
+    display: flex;
+    justify-content: center;
+}
 
 

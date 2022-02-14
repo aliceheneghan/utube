@@ -1,4 +1,3 @@
-
 .searchLeft {
     width: 12.5%;
     height: 100%;
@@ -61,7 +60,6 @@ input[type=search], input[type=search] + button {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    /* border: 1px red solid;  */
 }
 .nineDots div {
     width: 18%;
@@ -73,12 +71,13 @@ input[type=search], input[type=search] + button {
     padding-right: 10%;
     display: flex;
     align-items: center;
-    line-height: 2.8;
+    line-height: 2.85;
 }
 .menuLeft div {
     width: 100%;
-    padding-top: 6%;
+    padding: 5.5% 0% 5.5% 0%;
     border-bottom: 1px lightgray solid;
+    border: 1px blue solid;
 }
 .menuLeft ul {
     margin: 0;
@@ -86,13 +85,9 @@ input[type=search], input[type=search] + button {
 }
 ul i {
     padding: 0% 14% 0% 11%;
-    /* margin-right: 14%; */
 }
 div > span {
     color: rgb(97, 93, 93);
+    padding-left: 10%;    
 }
-/* hr {
-    margin-top: 5%;
-    width: 100%;
-    color: rgb(250, 249, 249);
-} */
+
