@@ -70,21 +70,29 @@ input[type=search], input[type=search] + button {
     border: 1px black solid;
 }
 .menuLeft {
+    padding-right: 10%;
     display: flex;
     align-items: center;
     line-height: 2.8;
 }
 .menuLeft div {
-    width: 77%;
+    width: 100%;
     padding-top: 6%;
+    border-bottom: 1px lightgray solid;
 }
 .menuLeft ul {
     margin: 0;
     list-style: none;
 }
 ul i {
-    margin-right: 14%;
+    padding: 0% 14% 0% 11%;
+    /* margin-right: 14%; */
 }
 div > span {
     color: rgb(97, 93, 93);
 }
+/* hr {
+    margin-top: 5%;
+    width: 100%;
+    color: rgb(250, 249, 249);
+} */
