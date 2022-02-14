@@ -1,6 +1,7 @@
 .searchLeft {
     width: 12%;
-    padding-left: 1.4%;
+    height: 100%;
+    padding-left: 1.35%;
     display: flex;
     align-items: center;
     align-self: flex-start;
@@ -15,7 +16,6 @@
 }
 .burger {
     width: 100%;
-    background-color: black;
     border-bottom: 1px black solid;
 }
 .search {
