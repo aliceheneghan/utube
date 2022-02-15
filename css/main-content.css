@@ -6,14 +6,14 @@
 }
 .channelProfilePic {
     width: 8%;
-    height: 75%;
+    height: 74%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 .channelInfo { 
     width: 79%;
-    height: 75%;
+    height: 74%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,7 +28,7 @@
 }
 .subscribe {
     width: 13%;
-    height: 75%;
+    height: 74%;
     display: flex;
     align-items: center;
    
@@ -48,7 +48,7 @@
     align-items: center;
 }
 .bannerMenuContent nav {
-    height: 25%;
+    height: 30%;
     width: 65%;
     border: 1px blue solid;
 }
