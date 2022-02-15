@@ -31,7 +31,6 @@
     height: 74%;
     display: flex;
     align-items: center;
-   
 }
 .subscribe button {
     width: 78%;
@@ -48,11 +47,15 @@
     align-items: center;
 }
 .bannerMenuContent nav {
-    height: 30%;
-    width: 65%;
+    height: 26%;
+    width: 70%;
     border: 1px blue solid;
 }
 .bannerMenuContent nav ul li {
     display: inline;
+    padding: 0% 3.1% 0% 3.1%;
+    line-height: 1.6;
+    font-family: 'Roboto-bold', sans-serif;
+    font-size: 15px;
     text-transform: uppercase;
 }
