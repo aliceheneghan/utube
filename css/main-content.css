@@ -1,4 +1,15 @@
 .bannerMenuContent, .galleryContent {
     width: 82%;
-    
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px red solid;
+}
+.channelProfilePic {
+    width: 8%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px green solid;
 }
