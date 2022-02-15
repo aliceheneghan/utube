@@ -30,7 +30,6 @@
     width: 13%;
     height: 75%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     border: 1px red solid;
 }
@@ -40,6 +39,9 @@
     border-radius: 0%;
     border: none;
     text-transform: uppercase;
+}
+.subscribe i {
+    padding-left: ;
 }
 .bannerMenuContent nav {
     height: 15%;

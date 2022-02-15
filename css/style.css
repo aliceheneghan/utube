@@ -17,8 +17,8 @@
 body {
     width: 100%;
     display: grid;
-    grid-template-columns: 13% 87%;
-    grid-template-rows: 6vh 27% 14% 59%;
+    grid-template-columns: 12.5% 87.5%;
+    grid-template-rows: 6vh 27% 15% 58%;
     grid-template-areas:
         "header header"
         "sideMenu banner"
