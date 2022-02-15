@@ -46,16 +46,23 @@
     justify-content: center;
     align-items: center;
 }
-.bannerMenuContent nav {
+.bannerMenuNav {
     height: 26%;
-    width: 70%;
-    border: 1px blue solid;
-}
-.bannerMenuContent nav ul li {
-    display: inline;
-    padding: 0% 3.1% 0% 3.1%;
-    line-height: 1.6;
+    width: 67%;
+    display: flex;
     font-family: 'Roboto-bold', sans-serif;
     font-size: 15px;
     text-transform: uppercase;
+}
+.bannerMenuNav div {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.bannerMenuNav div:first-child {
+    border-bottom: 3px rgb(97, 96, 96) solid;
+}
+.bannerMenuNav div:last-child {
+    padding-top: 0.4%;
 }
