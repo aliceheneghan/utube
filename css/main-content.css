@@ -1,5 +1,5 @@
 .bannerMenuContent, .galleryContent {
-    width: 82%;
+    width: 81%;
     height: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -9,7 +9,21 @@
     width: 8%;
     height: 75%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    border: 1px green solid;
+}
+.channelInfo { 
+    width: ;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.channelInfo p:first-child {
+    font-size: 24px;
+}
+.channelInfo p:last-child {
+    font-size: 15px;
+    line-height: 1.5;
+    color: gray;
 }
