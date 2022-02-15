@@ -34,7 +34,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px green solid;
 }
 .menuLeft {
     grid-area: sideMenu;
@@ -48,12 +47,14 @@ header {
     grid-area: bannerMenu;
     display: flex;
     justify-content: center;
-    border: 1px green solid;
+    align-items: center;
+    background-color: rgb(250, 249, 249);
 }
 .gallery {
     grid-area: gallery;
     display: flex;
     justify-content: center;
+    background-color: rgb(238, 236, 236);
 }
 
 

@@ -77,7 +77,6 @@ input[type=search], input[type=search] + button {
     width: 100%;
     padding: 5.5% 0% 5.5% 0%;
     border-bottom: 1px lightgray solid;
-    border: 1px blue solid;
 }
 .menuLeft ul {
     margin: 0;
