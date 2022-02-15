@@ -31,7 +31,7 @@
     height: 75%;
     display: flex;
     align-items: center;
-    border: 1px red solid;
+   
 }
 .subscribe button {
     width: 78%;
@@ -40,12 +40,19 @@
     border: none;
     text-transform: uppercase;
 }
-.subscribe i {
-    padding-left: ;
+.subscribe div {
+    width: 22%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bannerMenuContent nav {
-    height: 15%;
+    height: 25%;
+    width: 65%;
+    border: 1px blue solid;
 }
 .bannerMenuContent nav ul li {
     display: inline;
+    text-transform: uppercase;
 }
