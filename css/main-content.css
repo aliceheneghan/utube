@@ -12,7 +12,7 @@
     align-items: center;
 }
 .channelInfo { 
-    width: 77.5%;
+    width: 79%;
     height: 75%;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@
     color: gray;
 }
 .subscribe {
-    width: 14.5%;
+    width: 13%;
     height: 75%;
     display: flex;
     justify-content: space-between;
@@ -35,10 +35,11 @@
     border: 1px red solid;
 }
 .subscribe button {
-    width: 64%;
-    height: 30%;
+    width: 78%;
+    height: 40%;
     border-radius: 0%;
     border: none;
+    text-transform: uppercase;
 }
 .bannerMenuContent nav {
     height: 15%;
