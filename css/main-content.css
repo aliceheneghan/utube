@@ -33,14 +33,14 @@
     align-items: center;
 }
 .subscribe button {
-    width: 78%;
-    height: 40%;
+    width: 73%;
+    height: 34%;
     border-radius: 0%;
     border: none;
     text-transform: uppercase;
 }
 .subscribe div {
-    width: 22%;
+    width: 27%;
     height: 40%;
     display: flex;
     justify-content: center;
