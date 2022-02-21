@@ -1,6 +1,6 @@
 ## YouTube Clone
 
-**[Test this app yourself](aliceheneghan.github.io/utube/)**
+**[Test this app yourself](https://aliceheneghan.github.io/youtubeClone/)**
 
 ---
 
